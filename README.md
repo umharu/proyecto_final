@@ -1,6 +1,11 @@
 # Final Project 
 ## IADES Institute
 
+# NFTTracker
+
+NFTracking es una solución basada en blockchain diseñada para rastrear y autenticar productos en tiempo real mediante el uso de NFTs (tokens no fungibles). Nuestro objetivo es brindar trazabilidad, seguridad y confianza tanto a las empresas como a los consumidores finales, combatiendo problemas como falsificaciones, robos y pérdida de productos
+
+
 ### Tecnologias usadas 
 - Python 3.8 o superior
 - Django

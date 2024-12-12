@@ -11,4 +11,4 @@ def inicio(request):
 
 def home(request):
 
-    return render(request, )
+    return render(request, "home.html")
