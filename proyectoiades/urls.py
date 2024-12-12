@@ -16,9 +16,12 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path , include
+from iades import views
+
 
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('iades/', include('iades.urls')),
+    path('home/', include('iades.urls')),
     
 ]
