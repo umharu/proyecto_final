@@ -2,13 +2,14 @@ from django.db import models
 
 # Create your models here.
 
-class CURSO (models.Mode):
+class Cursos(models.Model):
     nombre = models.CharField(max_length=40)
     codigo = models.IntegerField()
+    cantidad = models.IntegerField(default=0)
 
     def __str__(self):
         return f"curso: {self.nombre} -- codigo: {self.codigo}"
-
+"""
 
 
 class Estudiantes(models.Model):
@@ -33,3 +34,4 @@ class Profesores(models.Model):
     def __str__(self):
         return f"Profesor -- nombre {self.nombre} -- dni: {self.dni}"
 
+"""
